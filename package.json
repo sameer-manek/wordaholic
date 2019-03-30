@@ -1,0 +1,19 @@
+{
+  "name": "wordaholic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
+  }
+}
