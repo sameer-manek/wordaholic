@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "commander": "^2.19.0",
     "inquirer": "^6.2.2",
     "oxford-dictionary": "^1.4.1"

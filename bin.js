@@ -7,7 +7,9 @@ const {
     wordSynonymns,
     wordAntonyms,
     wordExamples,
-    wordAllDetails
+    wordAllDetails,
+    wordOfDay,
+    wordGame
 } = require("./index")
 
 program
@@ -39,6 +41,17 @@ program
     .alias('d')
     .description("fetch all the details about word")
     .action(word => wordAllDetails(word))
+
+program
+    .command('wod')
+    .description("word of the day")
+    .action(_ => wordOfDay())
+
+program
+    .command('game')
+    .alias('wg')
+    .description("play the word game")
+    .action(_ => wordGame())
     
 program.parse(process.argv)
 
